@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samantha Garcia</title>
+    <!--Tailwind-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome versión libre -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="bg-black text-[#d4d4d4]">
+
+    <!-- HEADER -->
+    <header id="main-header" class="fixed w-full top-0 z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <!-- Logo + Nombre -->
+            <div class="flex items-center gap-3">
+                <div class="bg-white text-black font-bold w-10 h-10 flex items-center justify-center rounded-sm">SG
+                </div>
+                <span class="text-lg font-bold font-title">Samantha Garcia</span>
+            </div>
+            <!-- Navegación -->
+            <nav class="space-x-6 text-sm font-medium hidden md:block">
+                <a href="#about" class="hover:text-gray-300 font-title text-lg">About me</a>
+                <a href="#Projects" class="hover:text-gray-300 font-title text-lg">Projects</a>
+                <a href="#contact" class="hover:text-gray-300 font-title text-lg">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="h-screen bg-cover bg-center relative flex items-center justify-center text-center px-6"
+        style="background-image: url('./Assets/images/index.jpg');">
+        <!-- Capa oscura -->
+        <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+        <!-- Texto -->
+        <div class="relative z-10 max-w-2xl">
+            <h1 class="text-3xl md:text-5xl font-bold mb-6 font-title text-white">Samantha Garcia</h1>
+            <p class="text-lg md:text-2xl font-body text-white">
+                Building intuitive experiences and functional solutions.<br />
+                UX and code, together to create impact.
+            </p>
+        </div>
+    </section>
+    
+    <!-- About me -->
+    <div data-aos="fade-up">
+  <section id="about" class="py-16 px-4 max-w-5xl mx-auto">
+  <h2 class="text-4xl font-title text-center mb-12">About Me</h2>
+
+  <div class="font-body text-lg text-justify leading-relaxed">
+    <img
+      src="./Assets/images/avatar.png"
+      alt="Samantha portrait"
+     class="rounded-2xl shadow-lg w-52 sm:w-72 lg:w-[28rem] float-none lg:float-left lg:mr-12 mb-6 lg:mb-4"/>
+                <div data-aos="fade-up">
+                <p><strong class="text-lime-300">Hi! I’m Samantha</strong>, I'm a designer who codes or a developer who designs, depending on the
+                    need. I move between the empathy of user-centered design and the logic of code, creating products that
+                    not only look good but also work well — inside and out.</p></br></div>
+                    <div data-aos="fade-up">
+                <p>I’ve worked on improving product flows, collaborating with multidisciplinary teams and translating
+                    customer feedback into actionable insights.</p></br></div>
+               <div data-aos="fade-up">
+                    <p>💡 <strong class="text-lime-300">My approach:</strong>
+                    Designing interfaces that are not only beautiful but also usable.
+                    Writing clean and efficient code to bring them to life.
+                    Constantly learning and taking on new challenges in UX and development.</p></br></div>
+                <div data-aos="fade-up">
+                    <p>📌 <strong  class="text-lime-300"> A little about me:</strong>I started my UX journey through my experience as a Customer Excellence Analyst in a digital product environment. This role allowed me to collaborate with multidisciplinary teams and gain a deep understanding of how each area contributes to crafting better user experiences.</p></br></div>
+                 <div data-aos="fade-up">
+                    <p>🚀<strong  class="text-lime-300"> What drives me:</strong> Solving problems through design and technology, always with a
+                    user-centered mindset.</p></br></div>
+                <div data-aos="fade-up"><p><strong  class="text-white">🔗 Want to know more about my work? Check out my projects or reach out. I’m always open to new
+                        opportunities and collaborations!</strong></p></br></div>
+                <a href="#Projects"
+         class="inline-block mt-4 bg-indigo-500 text-white px-6 py-3 rounded-full font-bold hover:bg-indigo-400 transition">
+         See my work
+      </a>
+            </div>
+        </div>
+    </section>
+</div>
+
+    <!-- Proyectos -->
+
+    <section id="Projects" class="py-18 px-4 max-w-6xl mx-auto">
+        <h2 class="text-4xl  text-center mb-8 font-title">Projects</h2>
+
+        <div class="flex justify-center gap-4 mb-10 flex-wrap">
+            <button class="filter-btn bg-rose-500 text-white px-4 py-2 rounded hover:bg-rose-400 font-title"
+                data-filter="all">All</button>
+            <button class="filter-btn bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-400 font-title"
+                data-filter="ux">UX</button>
+            <button class="filter-btn bg-lime-400 text-white px-4 py-2 rounded hover:bg-lime-300 font-title"
+                data-filter="dev">Dev</button>
+        </div>
+
+
+        <div id="project-gallery" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <!-------------- Unireview-------------->
+            <div data-aos="flip-left" data-aos-duration="1000">
+            <div class="project-card fade-in group relative w-64 mx-auto h-72 rounded-xl overflow-hidden shadow-lg"
+                data-category="ux dev">
+                <img src="./Assets/images/Projects/unireview.png" alt="UX + Dev"
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                <div
+                    class="absolute inset-0 bg-black/40 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
+                    <div class="flex gap-2">
+                        <a href="ruta-a-detalles.html"
+                            class="bg-white text-indigo-500 border border-indigo-500 px-3 py-1 rounded-full text-sm font-semibold hover:bg-gray-200 transition">
+                            Ver caso UX
+                        </a>
+                        <a href="https://github.com/Samantha9705/Unireview-Frontend" target="_blank"
+                            class="bg-indigo-500 text-white px-3 py-1 border border-white rounded-full text-sm font-semibold hover:bg-white hover:text-indigo-500 transition">
+                            Ver código
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!--------------Astro------------->
+             <div data-aos="flip-left" data-aos-duration="2000">
+            <div class="project-card fade-in group relative w-64 mx-auto h-72 rounded-xl overflow-hidden shadow-lg"
+                data-category="dev">
+                <img src="./Assets/images/Projects/Astro.png" alt="UX + Dev"
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                <div
+                    class="absolute inset-0 bg-black/40 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
+                    <div class="flex gap-2">
+                        <a href="https://github.com/Samantha9705/Astro-" target="_blank"
+                            class="bg-indigo-500 text-white px-3 py-1 border border-white rounded-full text-sm font-semibold hover:bg-white hover:text-indigo-500 transition">
+                            Ver código
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <!------------ Coffee shop ------------>
+             <div data-aos="flip-left" data-aos-duration="3000">
+            <div class="project-card fade-in group relative w-64 mx-auto h-72 rounded-xl overflow-hidden shadow-lg"
+                data-category="ux">
+                <img src="./Assets/images/Projects/coffee.png" alt="UX + Dev"
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                <div
+                    class="absolute inset-0 bg-black/40 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
+                    <div class="flex gap-2">
+                        <a href="ruta-a-detalles.html"
+                            class="bg-white text-indigo-500 border border-indigo-500 px-3 py-1 rounded-full text-sm font-semibold hover:bg-gray-200 transition">
+                            Ver caso UX
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        
+            <!------------- Feelip --------------->
+            <div data-aos="flip-left" data-aos-duration="1000">
+            <div class="project-card fade-in group relative w-64 mx-auto h-72 rounded-xl overflow-hidden shadow-lg"
+                data-category="ux">
+                <img src="./Assets/images/Projects/feelip.png" alt="UX + Dev"
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                <div
+                    class="absolute inset-0 bg-black/40 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
+                    <div class="flex gap-2">
+                        <a href="ruta-a-detalles.html"
+                            class="bg-white text-indigo-500 border border-indigo-500 px-3 py-1 rounded-full text-sm font-semibold hover:bg-gray-200 transition">
+                            Ver caso UX
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <!---------------- Lista de compras ------------->
+                <div data-aos="flip-left" data-aos-duration="2000">
+                <div class="project-card fade-in group relative w-64 max-w-xs mx-auto h-72 rounded-xl overflow-hidden shadow-lg"
+                    data-category="dev">
+                    <img src="./Assets/images/Projects/shopList.png" alt="UX + Dev"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <div
+                        class="absolute inset-0 bg-black/40 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
+                        <div class="flex gap-2">
+                            <a href="https://github.com/Samantha9705/CH53_ListaCompras" target="_blank"
+                                class="bg-indigo-500 text-white px-3 py-1 border border-white rounded-full text-sm font-semibold hover:bg-white hover:text-indigo-500 transition">
+                                Ver código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        
+                <!----------Samantha Garcia-------------->
+                <div data-aos="flip-left" data-aos-duration="3000">
+                <div class="project-card fade-in group relative w-64 max-w-xs mx-auto h-72 rounded-xl overflow-hidden shadow-lg"
+                    data-category="ux dev">
+                    <img src="./Assets/images/Projects/samanthag.png" alt="UX + Dev"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <div class="absolute inset-0 bg-black/40 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
+                        <div class="flex gap-2">
+                            <a href="ruta-a-detalles.html"
+                                class="bg-white text-indigo-500 border border-indigo-500 px-3 py-1 rounded-full text-sm font-semibold hover:bg-gray-200 transition">
+                                Ver caso UX
+                            </a>
+                            <a href="https://github.com/Samantha9705/Portafolio-web" target="_blank"
+                                class="bg-indigo-500 text-white px-3 py-1 border border-white rounded-full text-sm font-semibold hover:bg-white hover:text-indigo-500 transition">
+                                Ver código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </section>
+
+            <!-- Separador visual entre proyectos y contacto --
+<div class="w-full h-12 bg-gradient-to-t from-transparent to-indigo-500 pt-12"></div>-->
+
+        
+          <!---------------Contact--------------->
+          <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
+
+          
+<section id="contact" class="py-12 md:min-h-screen md:flex md:items-center md:justify-center bg-black px-4">
+  <div class="max-w-2xl w-full text-center text-white">
+    
+    <h2 class="text-3xl md:text-4xl font-title mb-12 pt-12">
+      Let’s Create Something Great!
+    </h2>
+    
+    <p class="mb-8 mt-10 max-w-xl mx-auto font-body text-base md:text-lg">
+      Whether you have a question, a project idea or just want to say hi — I’d love to hear from you!
+    </p>
+    
+    <div class="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
+      <a href="mailto:sgm9705@gmail.com"
+         class="bg-indigo-500 text-white px-6 py-3 rounded-full font-bold hover:bg-indigo-400 transition">
+        Email Me
+      </a>
+      
+      <a href="https://www.linkedin.com/in/samantha-garcia-m/" target="_blank"
+         class="border border-indigo-500 px-6 py-3 rounded-full hover:bg-indigo-500 hover:text-white transition">
+        LinkedIn
+      </a>
+      
+      <a href="https://github.com/Samantha9705" target="_blank"
+         class="border border-indigo-500 px-6 py-3 rounded-full hover:bg-indigo-500 hover:text-white transition">
+        GitHub
+      </a>
+    </div>
+    
+  </div>
+</section>
+</div>
+
+
+
+
+    <footer class="bg-indigo-500 text-[#d4d4d4] py-6 mt-20">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+            <p class="text-sm">&copy; 2025 Samantha Garcia.</p>
+            <div class="space-x-6 mt-4 md:mt-0">
+                <!-- <a href="https://github.com/tuusuario" target="_blank" rel="noopener" class="hover:text-[#87dcfe]">GitHub</a>
+      <a href="https://linkedin.com/in/tuusuario" target="_blank" rel="noopener" class="hover:text-[#a479c1]">LinkedIn</a> -->
+                <a href="mailto:sgm9705@gmail.com" class="hover:text-[#bee38a]"> Create with passion ❤️</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS  -->
+    <script src="./JS/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
+
+</body>
+
+</html>
