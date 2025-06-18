@@ -44,5 +44,5 @@ Puedes ver el sitio en vivo aquí: [(https://samanthaga-portafolio.netlify.app/)
 
 ## 📬 Contact / Contacto
 
-Feel free to connect with me via [LinkedIn](https://www.linkedin.com/in/tuusuario) or email: tuemail@example.com  
-No dudes en contactarme por [LinkedIn](https://www.linkedin.com/in/tuusuario) o correo: tuemail@example.com
+Feel free to connect with me via [LinkedIn](https://www.linkedin.com/in/samantha-garcia-m/) or email: sgm9705@gmail.com 
+No dudes en contactarme por [LinkedIn](https://www.linkedin.com/in/samantha-garcia-m/?locale=es_ES) o correo: sgm9705@gmail.com
