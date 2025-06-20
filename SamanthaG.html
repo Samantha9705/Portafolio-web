@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SamanthaGarcia - UX Case</title>
+  <!--Tailwind-->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!--CSS-->
+  <link rel="stylesheet" href="./Styles/styles.css">
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet">
+  <!-- Font Awesome versión libre -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="bg-black text-white font-body">
+
+  <!-- HEADER -->
+  <header class="fixed w-full top-0 z-50 bg-indigo-500 ">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="bg-white text-black font-bold w-10 h-10 flex items-center justify-center rounded-sm">SG</div>
+        <a href="./index.html"><span class="text-lg font-bold font-title">Samantha Garcia</span></a>
+      </div>
+      <nav class="space-x-6 text-sm font-medium hidden md:block">
+        <a href="index.html#Projects" class="hover:text-gray-300 font-title text-lg">← Back to projects</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- CONTENIDO -->
+  <main class="pt-24 max-w-5xl mx-auto px-6">
+
+    <h1 class="text-4xl md:text-5xl font-title font-bold mb-6 text-center">Personal Portfolio</h1>
+
+    <!-- Imagen principal -->
+    <img src="./Assets/images/Projects/samanthag.png" alt="Preview del portafolio de Samantha Garcia"
+      class="mx-auto rounded-xl shadow-lg mb-12" />
+
+    <!-- Descripción -->
+    <section class="mb-12 text-lg leading-relaxed font-body text-justify">
+      <p><strong class="text-indigo-400">This project is my personal portfolio</strong> — designed and developed by me from scratch. I created a
+        visual identity that reflects who I am and used this platform to present my UX and development projects in an
+        intuitive, attractive and functional way.</p>
+      <p>It’s both a design showcase and a technical demonstration, built with HTML, TailwindCSS and JavaScript.</p>
+    </section>
+
+    <!-- Contexto -->
+    <section class="mb-12">
+      <h2 class="text-3xl font-title font-bold mb-4 text-lime-400">Context & Challenge</h2>
+      <p class="text-lg font-body text-justify">
+        I wanted a space that truly felt like mine — visually and functionally — where I could showcase my skills in
+        both UX and frontend. The biggest challenge was blending branding, clarity, accessibility, and responsiveness in
+        one consistent product.
+      </p>
+    </section>
+
+    <!-- Mi rol -->
+    <section class="mb-12">
+      <h2 class="text-3xl font-title font-bold mb-4 text-purple-500">My Role</h2>
+      <ul class="list-disc list-inside text-lg font-body space-y-2">
+        <li>Created my personal brand (logo, color palette, typography)</li>
+        <li>Designed layouts and pages in Figma</li>
+        <li>Developed the full site using TailwindCSS, HTML and JavaScript</li>
+        <li>Made the site responsive for mobile and desktop</li>
+        <li>Implemented functional routing, filtering and project views</li>
+      </ul>
+    </section>
+
+    <!-- Research -->
+    <section class="mb-12">
+      <h2 class="text-3xl font-title font-bold mb-4 text-rose-500">Research</h2>
+      <p class="text-lg font-body text-justify">
+        No formal user research was done for this project, but I performed competitive audits to review common portfolio
+        patterns and find inspiration for structure and features.
+      </p>
+    </section>
+
+    <!-- Proceso -->
+    <section class="mb-12">
+      <h2 class="text-3xl font-title font-bold mb-4 text-lime-400">Design Process</h2>
+      <ul class="list-disc list-inside text-lg font-body space-y-2">
+        <li>Competitive audit</li>
+        <li>Wireframes (lo-fi)</li>
+        <li>Information architecture</li>
+        <li>High-fidelity designs</li>
+        <li>Frontend development and testing</li>
+      </ul>
+    </section>
+
+    <!-- Galería -->
+    <section class="mb-16">
+      <h2 class="text-3xl font-title font-bold mb-4 text-purple-500">Mockups</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+        <img src="./Assets/images/Projects/portfolio1.png" alt="Vista del portafolio 1" class="rounded-xl shadow-lg">
+        <img src="./Assets/images/Projects/portfolio2.png" alt="Vista del portafolio 2" class="rounded-xl shadow-lg">
+        <img src="./Assets/images/Projects/portfolio3.png" alt="Vista del portafolio 3" class="rounded-xl shadow-lg">
+        <!-- Agrega más si tienes -->
+      </div>
+    </section>
+
+    <!-- Aprendizajes -->
+    <section class="mb-16">
+      <h2 class="text-3xl font-title font-bold mb-4 text-rose-500">Learnings</h2>
+      <p class="text-lg font-body text-justify">
+        This project helped me polish my frontend skills and solidify my visual design system thinking. I practiced
+        designing with hierarchy, scale and rhythm, while ensuring accessibility and clean code. I also learned how to
+        structure a responsive site from design to deployment.
+      </p>
+    </section>
+
+    <!-- Enlaces -->
+    <section class="text-center mb-20 space-y-4">
+      <!-- <a href="https://www.figma.com/proto/tu-link" target="_blank"
+        class="inline-block bg-indigo-500 hover:bg-indigo-400 text-white font-bold py-3 px-6 rounded-full transition">
+        View Design on Figma
+      </a> -->
+      <a href="https://github.com/Samantha9705/Portafolio-web" target="_blank"
+        class="inline-block border border-indigo-500 text-white hover:bg-indigo-500 hover:text-white font-bold py-3 px-6 rounded-full transition">
+        View Code on GitHub
+      </a>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-indigo-500 text-[#d4d4d4] py-6">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+      <p class="text-sm">&copy; 2025 Samantha Garcia.</p>
+      <div class="space-x-6 mt-4 md:mt-0">
+        <a href="mailto:samantha@example.com" class="hover:text-[#bee38a]">Create with passion ❤️</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

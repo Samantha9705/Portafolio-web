@@ -40,3 +40,26 @@ const header = document.getElementById("main-header");
     });
 
     document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+
+    //////////////////Typelt////////////////
+   
+  
+
+  document.addEventListener("DOMContentLoaded", function () {
+  new TypeIt("#animated-text", {
+    speed: 80,
+    waitUntilVisible: true,
+    cursorChar: "|",
+     lifeLike: true,
+     loop: false, // No lo repite
+     breakLines: true, // Asegura saltos de línea reales
+    
+  })
+    // .type("Building intuitive experiences and functional solutions.")
+    // .break()
+    .type("UX and code, together to create impact.")
+    .go();
+});
+
+
